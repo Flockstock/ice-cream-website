@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice cream</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styletwo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <a href="#home" class="bars"> Home </a>
+        <a href="#menu" class="bars"> About </a>
+        <a href="#about" class="bars"> Menu </a>
+        <a href="#contact" class="bars"> Contact </a>
+    </nav>
+    </header>
+    <main>
+    <section class="banner" id="home">
+    <div class="leftext"> 
+    <h1 id="maintext">Aurora Crème</h1>
+    <p id="Caption">“Where ordinary ends and extraordinary begins.”</p>
+        <div class = "search">
+            <button id="searchbtn">Search</button>
+        </div>
+        
+    </div>
+    <div class="sectionone">
+        
+            <div class="circle"></div>
+            <img id="icecreamone" src="images/ice1.png" alt="ice cream">
+            
+        
+    </div>
+    </section> 
+    
+    
+
+    <section class="about" id="about">
+        <div class="sundae">
+                <p id="Caption2">Aurora Crème is more than ice cream <br>it’s an experience of serenity and indulgence.<br> Each scoop is crafted like a rare jewel, blending velvety <br>textures with ethereal flavours that feel timeless yet unforgettable.<br> Inspired by the calm beauty of nature’s wonders,<br> Aurora Crème invites you to pause, breathe, and savour a - taste. Cool elegance meets<br> indulgent comfort, creating moments that linger long after the last bite.
+                </p>
+        </div>
+    <div class="bigcircle">
+    <img  id= "icecreamtwo" src="images/ice2.png" alt="ice cream sundae">
+    </div>
+    </section>
+    
+    <h1 id="menupage">Our Exotic Flavours:</h1>
+<section class="menu" id="menu"></section>
+    <div class="menustyle">
+            <div class="shape">
+            <img id="flavour" src="images/ice4.jpg" class="animate__animated animate__fadeInLeft animate__infinite">
+            </div>
+        </div>
+
+        <p id="description">Step into the world of Aurora Crème,<br>
+            where every flavour is a masterpiece waiting to be discovered. 
+            <br>Our menu is a curated journey through indulgence—classic comforts reimagined, exotic blends<br>
+            inspired by nature's calm beauty, 
+            and signature creations designed to feel rare and unforgettable. 
+            From velvety swirls of rose and pistachio to the ethereal glow of lavender honey, each scoop is<br>
+            crafted to awaken serenity and delight.
+            This isn't just ice cream—it's a collection of timeless experiences, meant to be
+            savoured slowly, like a once-in-a-lifetime moment.</p>
+
+    </section>
+    <section class="flavours">
+        <div class=" card set1" id="set1">           
+            <img src="images/choco.png" id="chocolate">
+            <button class="menubtn"><h3>Obsidian Truffle Reverrie</h3></button>
+        </div>
+        <div class=" card set1"id="set1">
+            <img src="images/fv2.png" id="lav">
+            <button class="menubtn"><h3>Lavender Crème Royale</h3></button>
+        </div>
+        <div class=" card set1" id="set1">
+            <img src="images/fv3.png" id="matcha">
+            <button class="menubtn"><h3>Pistachio Imperial Dream</h3></button>
+        </div>
+        <div class="card  set1" id="set1">
+            <img src="images/fv4.png" id="saffron">
+            <button class="menubtn"><h3>Saffron Silk Serenade</h3></button>
+        </div>
+        <div class=" card set1" id="set1">
+            <img src="images/fv5.png" id="starberry">
+            <button class="menubtn"><h3>Venetian Rose Gold Gelato</h3></button>
+            </div>
+        <div class=" card set2 " id="set1">
+            <img src="images/fv6.png" id="starberry">
+            <button class="menubtn"><h3>Venetian Rose Gold Gelato</h3></button>
+            </div>
+        <div class=" card set2 " id="set2">
+            <img src="images/fv7.png" id="starberry">
+            <button class="menubtn"><h3>Venetian Rose Gold Gelato</h3></button>
+            </div>
+        <div class=" card set2 " id="set2">
+            <img src="images/fv8.png" id="starberry">
+            <button class="menubtn"><h3>Venetian Rose Gold Gelato</h3></button>
+            </div>
+        <div class="card set2 " id="set2">
+            <img src="images/fv9.png" id="starberry">
+            <button class="menubtn"><h3>Venetian Rose Gold Gelato</h3></button>
+            </div>
+        <div class="card set2" id="set2">
+            <img src="images/fv10.png" id="starberry">
+            <button class="menubtn"><h3>Venetian Rose Gold Gelato</h3></button>
+            </div>
+    </section>    
+    <button id="changeflavour" onclick="flipCards()">Change Flavour ✨</button>
+<h1  id="caption4">Get in touch We will love to hear form you!</h1>
+    <section class="contact" id="contact">
+    
+            <form action="icecream.php" method="post">
+        <div class="contactform">
+            <div class="greenbox"></div>
+                <div class="redbox"></div>
+                    <div class="form">
+                        <h1><u>Contact Form :</u></h1>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="John Smith" reqiured/>
+                    </div>    
+                    <div class="form">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email"  placeholder="JSmith156@gmail.com"required/>
+                    </div>
+                    <div class="form">
+                        <label for="number">Phone:</label>
+                        <input type="number" name="phone" id="phone"  placeholder="56574xxxxx"/>
+                    </div>
+                    <div class="form">
+                        <label for="Address">Address:</label>
+                        <input type="text" id="address" name="address" placeholder="123 Main St" autocomplete="street-address" required/>
+                    </div>    
+        <button type="submit">Contact Us</button>
+                    
+            
+            </form>
+        </section>    
+        
+        <footer>     
+            <section class="social">
+                    <div class="sociallinks">
+                        <div class="twobox">
+                            <h1>Contact Info</h1>
+                                <list>
+                                    <ul>
+                                        <li><i class="fa-regular fa-envelope"></i>: abc@gmail.com</li>
+                                        <li><i class="fa-solid fa-phone"></i>:5475847xxxx</li>
+                                        <li><i class="fa-regular fa-house"></i> : fjhjfh1232 Steet</li>
+                                        
+                                    </ul>
+                            
+                            <h1>Follow Links</h1>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-google"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <img id="ice5" src="images/ice5.png">
+                        </div>
+                    </div>
+                </section>  
+        </footer>
+    </main>
+    <button id="topBtn">↑</button>
+</body>
+</html>

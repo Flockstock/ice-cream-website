@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(135deg,#84a9ff,#f5f8ff);
+    margin:0;
+    padding: 0;
+
+}
+.homepage{
+    box-sizing: border-box;
+    width:100%;
+    background: #ffffff;
+    border-radius: 40px;
+    margin-top: 200px;
+    padding: 60px 80px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    position:relative;
+    overflow: hidden;
+}
+.navigation{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 30px;
+
+
+}
+.logo{
+    width: 120px;
+    height:auto;
+    
+}
+#Snowflakes{
+
+    color: #5170ff;
+    float: right;
+    position: absolute;
+
+    
+
+}
+#logoimage{
+    width: 40%;
+    height: auto;
+    
+}
+#sundae{
+    width: 600px;
+    height: auto;
+}
+.banner{
+    background : linear-gradient(135deg,#f093ff,#fdf1ff) ;
+    border-radius: 70px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 220px;
+    position: relative;
+}
+.menu{
+    display:flex;
+    gap: 35px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    
+    
+
+}
+.navs{
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+
+}
+.sundae{
+    width: 220px;
+    height: auto;
+}
+#con{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    transform: translate(-50%);
+    width: 150px;
+}
