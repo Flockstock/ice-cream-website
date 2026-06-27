@@ -17,4 +17,4 @@ This project is all about creating a magical, creamy, and frosty experience onli
 ### 🖥️ How to View
 1. Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/ice-cream-website.git
+https://github.com/Flockstock/ice-cream-website.git
