@@ -1,20 +1,49 @@
-# 🍦 Aurora Creme – Ice Cream Website (WIP)
+# 🍦 Aurora Crème – Ice Cream Website
 
-Aurora Creme is a fun, whimsical ice cream-themed website currently in development!  
-This project is all about creating a magical, creamy, and frosty experience online.
+Aurora Crème is a fun, whimsical ice-cream-themed website that I built as my **first ever web project** and my **first Figma design**.
 
-### 🌈 Current Features
-- Basic layout with sections for flavors and combos
-- Frosty, pastel-inspired design
-- Some hover effects and animations
+I wanted this project to be more than just following a tutorial. I put myself in a position where I had to figure things out on my own and see how much I could actually build and explore with what I knew.
 
-### 🔜 Coming Soon
-- More interactive animations
-- Smooth scroll and clickable buttons for navigation
-- Extra ice cream flavor sections and images
-- Mobile responsiveness improvements
+Honestly, this project took me almost a whole month. There was a lot of trial and error, getting stuck, figuring things out, and motivating myself to keep going. Looking back, that's probably what makes this project special to me — it was where I really started learning by **building instead of just learning**.
 
-### 🖥️ How to View
-1. Clone the repository:
+## 🌈 Features
+
+* 🍨 Ice cream flavors and combo sections
+* 🎨 Frosty, pastel-inspired design
+* ✨ Hover effects and animations
+* 🖥️ Custom design created in Figma
+* 💻 Built from scratch with HTML, CSS and JavaScript
+
+## 🖼️ Preview
+
+![Aurora Crème Website Preview](./Aurorapreview.png)
+
+## 🔜 Future Improvements
+
+There are still a few things I'd like to explore and improve:
+
+* More interactive animations
+* Smooth scrolling and clickable navigation
+* Additional ice cream flavors and sections
+* Better mobile responsiveness
+
+## 🛠️ Built With
+
+* HTML
+* CSS
+* JavaScript
+* Figma
+
+## 🖥️ How to View
+
+Clone the repository:
+
 ```bash
-https://github.com/Flockstock/ice-cream-website.git
+git clone https://github.com/Flockstock/ice-cream-website.git
+```
+
+Then open the project in your browser.
+
+---
+
+**A small project, but an important one for me — this is where I started. 🍦**
